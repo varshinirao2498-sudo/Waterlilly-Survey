@@ -43,7 +43,7 @@ export default function App() {
 
   if(submitted) return (
     <div className="p-6 max-w-xl mx-auto space-y-4">
-      <h1 className="text-2xl font-bold">✅ Submission #{submitted.id}</h1>
+      <h1 className="text-2xl font-bold">Submission #{submitted.id}</h1>
       {submitted.items.map((it,i)=>(
         <div key={i} className="border-b pb-2 mb-2">
           <div className="font-medium">{it.question_title}</div>
